@@ -18,3 +18,33 @@ To run the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/1801140701/weather-app.git
+2. Navigate to the project directory:
+   bash
+   cd weather-app
+3. Install dependencies:
+   bash
+   npm install
+4. Start the development server:
+   bash
+   npm start
+Usage
+1. Enter the name of a city in the input field.
+2. Click "Get Weather Info" to retrieve the current weather data for the specified city.
+3. Use the "Clear" button to reset the input and clear the displayed weather information.
+Technologies Used
+1. React 19
+2. CSS Modules
+3. OpenWeatherMap API (or whichever API you are using)
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+### Explanation of Sections:
+- **Description**: Brief overview of what the application does.
+- **Project Requirements**: Clearly states your GitHub repository, commit history importance, and React version used.
+- **Installation**: Step-by-step instructions to set up the project locally.
+- **Usage**: How to interact with the application.
+- **Technologies Used**: Lists the main technologies involved in the project.
+- **License**: Standard section for open-source projects.
+
+### Note:
+- Make sure to replace `YourUsername` with your actual GitHub username and update the repository link.
+- If there are any additional features or libraries used, you can add those to the **Techn
