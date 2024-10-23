@@ -47,4 +47,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
   
 ## Demo Video
 
-[Watch the demo video here](./public/Weather_App_Demo.mp4)
+[Download the demo video here](https://github.com/1801140701/weather-app/raw/main/public/Weather_App_Demo.mp4)
