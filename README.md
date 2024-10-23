@@ -44,7 +44,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Usage**: How to interact with the application.
 - **Technologies Used**: Lists the main technologies involved in the project.
 - **License**: Standard section for open-source projects.
-
-### Note:
-- Make sure to replace `YourUsername` with your actual GitHub username and update the repository link.
-- If there are any additional features or libraries used, you can add those to the **Techn
