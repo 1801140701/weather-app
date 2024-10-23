@@ -44,3 +44,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Usage**: How to interact with the application.
 - **Technologies Used**: Lists the main technologies involved in the project.
 - **License**: Standard section for open-source projects.
+  
+## Demo Video
+
+[Watch the demo video here](./public/Weather_App_Demo.mp4)
