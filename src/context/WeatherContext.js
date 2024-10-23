@@ -15,9 +15,11 @@ export const WeatherProvider = ({ children }) => {
         try {
             const API_KEY = "6e446e02685eeb776f356a415b196fc9"
             const response = await fetch( `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}&units=metric`);
-            if(!response) {
-                throw new Error('City not found');
+
+            if (!response.ok) {
+                throw new Error('City not found. Please enter a valid city.');
             }
+            
             const data = await response.json();
             setWeatherData(data);
         } catch (err) {
@@ -28,7 +30,7 @@ export const WeatherProvider = ({ children }) => {
     },[])
 
     return (
-        <WeatherContext.Provider value={{ city, setCity, weatherData, loading, error, fetchWeatherApi, setWeatherData}}>
+        <WeatherContext.Provider value={{ city, setCity, weatherData, loading, error, fetchWeatherApi, setWeatherData, setError}}>
             {children}
         </WeatherContext.Provider>
     );

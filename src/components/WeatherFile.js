@@ -3,7 +3,7 @@ import { WeatherContext } from "../context/WeatherContext";
 import styles from '../styles/Weather.module.css';
 
 const WeatherFile = () => {
-    const { weatherData, loading, error, fetchWeatherApi, setWeatherData } = useContext(WeatherContext);
+    const { weatherData, loading, error, fetchWeatherApi, setWeatherData, setError } = useContext(WeatherContext);
     const inputRef = useRef(null);
 
     const handleSubmit = (e) => {
@@ -16,6 +16,7 @@ const WeatherFile = () => {
 
     const handleClear = () => {
         inputRef.current.value = '';
+        error && setError(null)
         setWeatherData(null)
     }
 
